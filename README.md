@@ -17,10 +17,14 @@ cypress/
 ├── pages/
 │   └── loginPage.js          # Page Object da página de login
 
-## 🧪 Cenários Testados
+🧪 Cenários Testados
 
-- ✅ Login com credenciais válidas — deve redirecionar para a página de inventário
-- ❌ Login com senha inválida — deve exibir mensagem de erro
+* ✅ Login com credenciais válidas — deve redirecionar para a página de inventário
+* ❌ Login com senha inválida — deve exibir mensagem de erro
+* ❌ Login com usuário bloqueado — deve exibir mensagem de bloqueio
+* ❌ Login com campos vazios — deve exibir mensagem de campo obrigatório
+* ❌ Login sem senha — deve exibir mensagem de campo obrigatório
+* ❌ Login sem usuário — deve exibir mensagem de campo obrigatório
 
 ## ▶️ Como executar
 
